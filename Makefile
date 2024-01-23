@@ -1,4 +1,4 @@
-all: lint test
+all:*lint test
 
 .DEFAULT_GOAL: install
 
@@ -55,3 +55,4 @@ changelog:
 
 clean:
 	rm -Rf $(VENV) dist
+ 
